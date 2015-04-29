@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Radar chart</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="RadarChart.js"></script>
+	<style>
+		body {
+		  overflow: hidden;
+		  margin: 0;
+		  font-size: 14px;
+		  font-family: "Helvetica Neue", Helvetica;
+		}
+
+		#chart {
+		  position: absolute;
+		  top: 50px;
+		  left: 100px;
+		}	
+		pre {
+			margin-left: 40rem;
+		}
+	</style>
+  </head>
+  <body>
+    <div id="body">
+	  <div id="chart"></div>
+    </div>
+		        <pre>
+		        	<code>
+				{
+				  "companies": [
+				    {
+				      "data": [
+				        { 
+				          "axis":"VE/EBITDA",
+				          "value":11.8
+				        },
+				        {
+				          "axis":"VP/Valor en libras",
+				          "value":8.7
+				        },
+				        {
+				          "axis":"VE/Activos",
+				          "value":2.0
+				        },
+				        {
+				          "axis":"VE/Ventas",
+				          "value":0.9
+				        }
+				      ]
+				    },
+				    {
+				      "data": [
+				        { 
+				          "axis":"VE/EBITDA",
+				          "value":11.8
+				        },
+				        {
+				          "axis":"VP/Valor en libras",
+				          "value":8.7
+				        },
+				        {
+				          "axis":"VE/Activos",
+				          "value":2.0
+				        },
+				        {
+				          "axis":"VE/Ventas",
+				          "value":0.9
+				        }
+				      ]
+				    }
+				  ]  
+				}
+		        	</code>
+		        </pre>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
